@@ -1,3 +1,22 @@
+
+# App-Laravel-React
+It is an app that is responsible for making a CRUD of users with Laravel and React
+
+# Installation
+Make sure you have environment setup properly. You will need PHP8.0, composer and Node.js.
+
+1. Download the project (or clone using GIT) <br>
+2. Copy .env.example into .env and configure database credentials<br>
+3. Navigate to the project's root directory using terminal<br>
+4. Run composer install<br>
+5. Set the encryption key by executing php artisan key:generate --ansi <br>
+6. Run migrations php artisan migrate --seed <br>
+7. Start local server by executing php artisan serve <br>
+8. Open new terminal and navigate to the react folder <br>
+9. Copy react/.env.example into .env and adjust the VITE_API_BASE_URL parameter <br>
+10. Run npm install <br>
+11. Run npm run dev to start vite server for React <br>
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
